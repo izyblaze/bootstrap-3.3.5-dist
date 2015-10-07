@@ -1,0 +1,165 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+@font-face{
+	font-family: silpa;
+	src : url(SILPAKORN70yr.ttf);
+}
+
+.main_font {
+	font-family: silpa;
+	color: #ffffff;
+	text-align: center;
+}
+
+#logo {
+	width: 62%;
+	padding-top: 1%;
+}
+
+#nav {
+	color: #ffffff;
+	font-family: silpa;
+	font-size: 20px;
+	margin-top: 3%;
+	padding-top: 9px;
+}
+
+/*
+#0f634f; 1st
+#064f3d; 2nd
+#024031; 3rd
+#; 4th
+*/
+
+nav ul li{
+	padding: 0 20px;
+	border-radius: 10px;
+	position : relative;
+	display: inline-table;
+	border-radius: 0px;
+	padding-top: 0%;
+	padding-bottom: 0%;	
+	text-align: center;
+}
+
+/*color of first nav change when cursor pass it*/
+nav ul li:hover{
+	background-color: #0f634f; 
+	border-radius: 3px;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+}
+
+nav ul li:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+
+nav ul li:hover > ul {
+	display: block;
+	margin-left: -11%;
+	border-radius: 3px;
+	color: #fff;
+}
+
+/*2nd nav*/
+nav ul ul {
+	background-color: #0f634f;
+	padding: 0;
+	position: absolute; 
+	top: 100%;
+	display: none;
+	text-align: center;
+}
+
+nav ul ul li {
+	float: none; 
+	position: relative;
+	background-color: #0f634f; 
+	padding-right: 60%;
+	text-align: center;
+}
+
+/*2nd nav when cursor pass it*/
+nav ul ul:hover {
+	background-color: #0f634f;
+}
+
+nav ul ul li:hover {
+	background-color: #064f3d;
+	border-radius: 0;
+}
+
+nav ul ul ul {
+	position: absolute; 
+	left: 100%; 
+	top: 0;
+}
+
+nav ul ul ul li {
+	background-color: #064f3d; 
+}
+
+nav ul ul ul li:hover {
+	background-color: #024031;
+}
+
+#pageheader {
+	background-color: #18a07f;
+}
+
+.search_bar {
+	margin: 15px;
+	margin-right: 0px;
+}
+
+.menu_bar {
+	margin: 0px;
+	padding: 0px
+}
+
+.pageheader {
+	height: 140px;
+}
+
+.picslide {
+	height: 100px;
+}
+
+.underlinepageheader {
+	width: 100%;
+	margin: 0;
+	height: 5px;
+	background-color: #ffffff;
+}
+
+.wrapper {
+	width: 100%;
+	margin: 0;
+}
+
+
+<!--navbar-->
+/*nav ul{
+	margin: 0px;
+	padding: 0px;
+}
+
+nav ul li {
+	display:  inline-block;
+	list-style-type: none;
+}
+
+nav > ul > li > a {
+	color: #aaa;
+	background-color #FF0: 
+	display: block;
+	line-height: 2em;
+	padding: 0.5em , 0.5em;
+	text-decoration: none;
+}
+
+*/
